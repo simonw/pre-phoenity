@@ -1,0 +1,139 @@
+body{
+font: 12px/1.6em "Trebuchet ms", sans-serif;
+cursor: default;
+width: 50%;
+padding: 2em;
+margin: auto;
+text-align: justify;
+min-width: 350px;
+max-width: 550px;
+overflow: visible;
+}
+
+#pxhelp{
+float: right;
+margin-left: .8em;
+}
+
+p#d{
+text-align: right;
+letter-spacing: .1em;
+text-transform: lowercase;
+font-size: 110%;
+margin-top: -1em;
+}
+
+h1,h2{
+text-align: center;
+color: #06f;
+background-color: transparent;
+}
+
+h2 a{
+cursor: pointer;
+}
+
+hr{
+height: 0px;
+border-top: 1px solid #06f;
+}
+
+h3{
+letter-spacing: .5em;
+font-size: 1.2em;
+border-bottom: 1px dashed #9cf;
+}
+
+h3,p{margin: 3px;}
+
+p{text-indent: 2em;}
+
+strong,em,tt{
+color: #090;
+background-color: transparent;
+font-weight: bold;
+}
+
+a,h3{
+color: #06f;
+background-color: transparent;
+font-weight: bold;
+text-decoration: none;
+}
+
+a:hover{text-decoration: underline;}
+
+address{
+font-style: normal;
+font-size: 10px;
+text-align: right;
+margin-top: 3em;
+}
+
+ul{
+list-style-image: url(listimage.png);
+line-height: normal;
+padding-left: 1em;
+margin-left: 0;
+}
+
+ul ul{padding-left: 1.5em;}
+
+ul>li{
+margin-top: 0;
+margin-bottom: 0;
+}
+
+img{
+vertical-align: middle;
+border: 0;
+}
+
+table,td,table *,td *{
+font-size: 10px;
+color: #ccc !important;
+background-color: #fff;
+cursor: default !important;
+text-decoration: none;
+line-height: 100%;
+}
+
+button{
+border-width: 1px;
+padding: 1px .2em;
+}
+
+#button{
+text-align:center;
+border: 0;
+}
+
+#button{
+display: none;
+}
+
+[id="button"]{
+position: fixed;
+bottom:0;
+right:0;
+}
+
+/*Gecko only? Presto maybe?*/
+
+img:hover{background-color: ThreedFace;}
+
+img:hover:active{background-color: ThreedShadow;}
+
+h3:hover{border-bottom: 1px dashed #06f;}
+
+.g a:after{
+content: "";
+}
+
+.g a:hover:after{
+content: "ebsite: " attr(href);
+}
+
+.g strong+a:hover:after{
+content: attr(href);
+}
